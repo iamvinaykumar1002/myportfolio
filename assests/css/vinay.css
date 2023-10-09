@@ -1,0 +1,461 @@
+.body {
+    background-color: #191919;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px;
+    background-size: auto;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.intro {
+    color: #D9D9D9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    line-height: 10px;
+    margin-left: 50px;
+    padding-top: 150px;
+    font-weight: bold;
+    
+}
+
+.ujwal {
+    color: #13B0F5
+}
+
+.img {
+    height: 20px;
+    width: 20px;
+}
+
+.page1 {
+    
+    margin-top: 50px;
+}
+
+.mypic {
+    margin-top: -270px;
+    margin-left: 800px;
+    height: 200px;
+    width: 200px;
+}
+.mypic2{
+    height: 200px;
+    width: 200px;
+    margin-top: -450px;
+    margin-left: 770px;
+}
+
+nav {
+    position: fixed;
+}
+
+.about {
+    color: #D9D9D9;
+    padding-left: 50px;
+    padding-top: 90px;
+}
+
+.intern {
+    display: flex;
+}
+
+.mywork {
+    color: #D9D9D9;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+button {
+    border-width: 0px;
+    border-radius: 18px;
+    width: 90px;
+    height: 30px;
+    margin-left: 400px;
+    margin-top: 20px;
+    background: #D7FFE0;
+}
+
+.work-cont {
+    display: flex;
+}
+
+.work-cont-sub {
+    display: flex;
+    margin-right: 150px;
+}
+
+hr {
+    margin-left: 50px;
+    width: 650px;
+}
+
+.page3 {
+    color: #A7A7A7;
+    display: flex;
+    margin-top: 70px;
+}
+
+.tech {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.skill {
+    margin-left: 450px;
+    height: 150px;
+    width: 120px;
+    margin-top: 80px;
+}
+.skill2{
+    height: 100px;
+    width: 80px;
+    margin-left: 300px;
+}
+.skill3{
+    height: 100px;
+    width: 80px;
+}
+
+.icon1 {
+    height: 75px;
+    width: 75px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.icon2 {
+    height: 75px;
+    width: 75px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.page4 {
+    color: #A7A7A7;
+    margin-left: 50px;
+    margin-top: 110px;
+}
+
+.projects {
+    height: 200px;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.page5 {
+    color: #A7A7A7;
+    margin-left: 50px;
+    margin-top: 110px;
+}
+
+.certificates {
+    height: 200px;
+    width: 300px;
+}
+
+.page6 {
+    color: #A7A7A7;
+    margin-left: 50px;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.touch {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.touch img {
+    margin-left: 190px;
+}
+
+.detail {
+    display: flex;
+}
+
+.detail a {
+    margin-left: 230px;
+    color: #A7A7A7;
+    text-decoration: none;
+}
+
+.phone {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-right: 500px;
+}
+
+.cerinfo {
+    display: flex;
+    color: #A7A7A7;
+}
+
+.certifi {
+    margin-left: 50px;
+    display: flex;
+}
+
+.cer5 {
+    display: flex;
+}
+
+.para4 {
+    margin-left: 30px;
+
+}
+
+.pc5 {
+    display: flex;
+    margin-left: 50px;
+}
+
+.banner {
+    display: flex;
+
+}
+
+.banner .bbox {
+    background-size: 350px 350px;
+    margin-left: 50px;
+
+}
+
+#box1 {
+    background-image: url('../img/Rectangle\ 22922.svg');
+
+
+}
+
+#box2 {
+    background-image: url('../img/Rectangle\ 22922.svg');
+
+}
+
+#box3 {
+    background-image: url('../img/Rectangle\ 22922.svg');
+
+}
+
+.bcrime {
+    border: 2px solid;
+    color: #A7A7A7;
+    margin-right: 600px;
+    margin-left: 50px;
+}
+
+.hand {
+    height: 50px;
+    width: 50px;
+    margin-left: 475px;
+}
+.p2{
+    margin-left: 350px;
+}
+.p3{
+    margin-left: 250px;
+}
+
+@media screen and (max-width:496px) {
+    .body {
+        font-size: 10px;
+        background-size: cover;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        margin-right: 150px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+
+    .page1 {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .intro {
+        font-size: 20px;
+        line-height: 4px;
+        margin-top: 1px;
+    }
+
+    .mypic {
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .mypic2 {
+        margin-left: 40px;
+        margin-top: -210px;
+    }
+
+    .about {
+        padding-top: 10px;
+        
+    }
+    
+
+    button {
+        margin-left: 50px;
+        border-radius: 18px;
+        width: 75px;
+        height: 15px;
+    }
+
+    .skill {
+        margin-left: 40px;
+        height: 50px;
+        width: 50px;
+        margin-top: 50px;
+    }
+
+    .icon1 {
+        height: 50px;
+        width: 50px;
+        margin-left: 20px;
+    }
+
+    .icon2 {
+        height: 50px;
+        width: 50px;
+        margin-left: 1px;
+    }
+
+    .page4 {
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+
+    .bcrime {
+        border: 1px solid;
+        color: #A7A7A7;
+        margin-right: 600px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .projects {
+        height: 100px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    .bcrime{
+        margin-right: 5px;
+    }
+    .hand{
+        margin-left: 20px;
+        height: 20px;
+        width: 20px;
+    }
+    .page5{
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .banner{
+        flex-direction: column;
+        margin-left: 2px;
+        margin-right: 20px;
+    }
+    .certificates{
+        height: 100px;
+        width: 200px;
+    }
+    .page6{
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 100px;
+    }
+    .touch{
+        height: 50px;
+        width: 50px;
+    }
+    .touch img{
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .detail a{
+        margin-left: 20px;
+    }
+    .detail .p2{
+        margin-left: 60px;
+    }
+    .detail .p3{
+        margin-left: 60px;
+    }
+    .tech{
+        margin-left: 5px;
+    }
+    .mywork{
+        margin-top: 20px;
+        padding-right: 1px;
+    }
+    .mywork .work-cont .work-cont-sub{
+        margin-right: 20px;
+    }
+    .navi .logo{
+        margin-left: 1px;
+    }
+    .para{
+        font-size: 13px;
+    }
+    .container{
+        display: flex;
+    }
+}
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    background-color: #191919;
+    margin-top: -60px;
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    display: inline;
+    color: #A7A7A7;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a.active {
+    text-decoration: underline;
+    color: #E70FAA;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 496px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 496px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  
